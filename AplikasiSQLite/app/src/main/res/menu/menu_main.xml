@@ -5,8 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="net.afandi.aplikasisqlite.MainActivity">
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/action_location"
         android:orderInCategory="100"
-        android:title="@string/settings"
+        android:title="@string/lokasi"
         app:showAsAction="never" />
 </menu>

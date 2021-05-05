@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
         listView = findViewById(R.id.list_view);
 
         // Menambah FloatingActonButton
-        FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
+        FloatingActionButton fab = findViewById(R.id.fab);
 
         fab.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -135,7 +135,8 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
+        if (id == R.id.action_location) {
+            startActivity(new Intent(this, MapsActivity.class));
             return true;
         }
 
