@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SensorAccelerometer</string>
+    <string name="koordinat_z">Koordinat z</string>
+    <string name="koordinat_y">Koordinat Y</string>
+    <string name="koordinat_x">Koordinat X</string>
+    <string name="nama">Afandi Nur Aziz Thohari</string>
+    <string name="judul">Memakai Sensor Accelerometer</string>
+</resources>

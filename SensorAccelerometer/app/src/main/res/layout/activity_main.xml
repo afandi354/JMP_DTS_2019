@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="@string/judul"
+      android:textStyle="bold"
+      android:textSize="18sp"
+      android:layout_marginBottom="8dp"
+      android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nama"
+        android:textSize="16sp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/xcoor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/koordinat_x"
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/ycoor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/koordinat_y"
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/zcoor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/koordinat_z"
+        android:textSize="16sp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
